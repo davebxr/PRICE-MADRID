@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+<title>Price Madrid</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link rel="icon" href="images/Logos/logo_mini.png">
+
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+<link rel="stylesheet" href="css/style.css" />
+
+<link rel="stylesheet" href="css/responsive.css" />
+
+<link rel="stylesheet" href="css/colors1.css" />
+
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css" />
+<link rel="stylesheet" type="text/css" href="revolution/css/layers.css" />
+<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css" />
+
+</head>
+
+
+<header id="default_header" class="header_style_1">
+  
+  <div class="header_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="full">
+            <div class="topbar-left">
+              <ul class="list-inline">
+                <li> <span class="topbar-label"><i class="fa  fa-home"></i></span> <span class="topbar-hightlight"><a href="https://www.google.com/maps/search/?api=1&query=Calle+7+%235-19,+Madrid+Cundinamarca">Calle 7 # 5-19</a></span> </li>
+
+                <li> <span class="topbar-label"><i class="fa fa-envelope-o"></i></span> <span class="topbar-hightlight"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=price.madrid.c@gmail.com">price.madrid.c@gmail.com</a></span> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 right_section_header_top">
+          <div class="float-left">
+            <div class="social_icon">
+              <ul class="list-inline">
+                <li><a class="fa fa-instagram" href="https://www.instagram.com/price_madrid" title="price_madrid" target="_blank"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="float-right">
+            <div class="make_appo"> <a class="btn white_btn" href="contactenos.html">Escógenos</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="header_bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+          
+          <div class="logo"> <a href="index.html"><img src="images/logos/logo.png" alt="logo" /></a> </div>
+          
+        </div>
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+          
+          <div class="menu_side">
+            <div id="navbar_menu">
+              <ul class="first-ul">
+                <li> <a href="index.html">Inicio</a>
+                <li><a class="active" href="shop.html">Tienda</a></li>
+                <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+                <li> <a href="contactenos.html">Contactenos</a>
+                  <li><a href="carrito.html" style="display: flex; align-items: center;"><img src="images/Fotos/carrito.png" alt="Carrito" style="width: 20px; height: 20px; margin-right: 5px;" /> </a></li>
+                </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+<div id="inner_banner" class="section inner_banner_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="full">
+          <div class="title-holder">
+            <div class="title-holder-cell text-left">
+              <h1 class="page-title">Detalles del Producto</h1>
+              <ol class="breadcrumb">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="active">Detalles del Producto</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Fondo blanco */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .shop-detail-container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            color: #333;
+        }
+        .product-header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .product-image img {
+            width: 350px;
+            height: 350px;
+            border-radius: 20px; /* Borde redondeado en la imagen */
+            object-fit: cover;
+        }
+        .product-info {
+            margin-left: 30px;
+            max-width: 600px;
+        }
+        .product-info h2 {
+            font-size: 28px;
+            color: #333;
+        }
+        .product-info p {
+            color: #666;
+            margin-top: 5px;
+        }
+        .price {
+            font-size: 28px;
+            color: #4CAF50;
+            margin: 15px 0;
+        }
+        .rating {
+            display: flex;
+            justify-content: center;
+            flex-direction: row-reverse;
+            margin-bottom: 2px;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            font-size: 55px;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .rating label:hover,
+        .rating label:hover ~ label,
+        .rating input:checked ~ label {
+            color: #9548c2; /* Color morado para estrellas seleccionadas */
+        }
+        .add-to-cart {
+            background-color: #9548c2; /* Botón morado */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .details-table {
+            margin-top: 20px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .details-table th, .details-table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        .related-products {
+            margin-top: 40px;
+        }
+        .related-products h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .product-card {
+            display: inline-block;
+            width: 180px;
+            margin-right: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product-card h4 {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product-card p {
+            color: #4CAF50;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .product-card button {
+            background-color: #9548c2; /* Botón morado */
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .review-section {
+            margin-top: 40px;
+        }
+        .review-section h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .review-form input, .review-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .review-form button {
+            background-color: #9548c2; /* Botón morado */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="shop-detail-container">
+    <div class="product-header">
+        <div class="product-image">
+            <img src="broccoli.jpg" alt="Broccoli">
+        </div>
+        <div class="product-info">
+            <h2>Broccoli</h2>
+            <p>Category: Vegetables</p>
+            <div class="price">$3.35</div>
+            <p>The fresh and organic broccoli is sourced from local farms, ensuring quality and freshness.</p>
+            <button class="add-to-cart">Añadir al carrito 🛒</button>
+        </div>
+    </div>
+    
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Fondo blanco */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .shop-detail-container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            color: #333;
+        }
+        .product-header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .product-image img {
+            width: 350px;
+            height: 350px;
+            border-radius: 20px; /* Borde redondeado en la imagen */
+            object-fit: cover;
+        }
+        .product-info {
+            margin-left: 30px;
+            max-width: 600px;
+        }
+        .product-info h2 {
+            font-size: 28px;
+            color: #333;
+        }
+        .product-info p {
+            color: #666;
+            margin-top: 5px;
+        }
+        .price {
+            font-size: 28px;
+            color: #4CAF50;
+            margin: 15px 0;
+        }
+        .rating {
+            display: flex;
+            justify-content: center;
+            flex-direction: row-reverse;
+            margin-bottom: 2px;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            font-size: 55px;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .rating label:hover,
+        .rating label:hover ~ label,
+        .rating input:checked ~ label {
+            color: #9548c2; /* Color morado para estrellas seleccionadas */
+        }
+        .add-to-cart {
+            background-color: #9548c2; /* Botón morado */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .details-table {
+            margin-top: 20px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .details-table th, .details-table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        .related-products {
+            margin-top: 40px;
+        }
+        .related-products h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .product-card {
+            display: inline-block;
+            width: 180px;
+            margin-right: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product-card h4 {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product-card p {
+            color: #4CAF50;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .product-card button {
+            background-color: #9548c2; /* Botón morado */
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .review-section {
+            margin-top: 40px;
+        }
+        .review-section h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .review-form input, .review-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .review-form button {
+            background-color: #9548c2; /* Botón morado */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="shop-detail-container">
+    <div class="product-header">
+        <div class="product-image">
+            <img src="images/Productos/gomitas.jpg" alt="Dulces">
+        </div>
+        <div class="product-info">
+            <h2>Gomitas trululu snacks surtidas X 24 Und</h2>
+            <p>Categoria: Dulces</p>
+            <div class="price">$38.900</div>
+            <p>Disfruta de las deliciosas Gomitas Trululu Snacks Surtidas, un festín de sabores que encanta a grandes y chicos. Estas gomitas suaves y coloridas son perfectas para compartir en fiestas, meriendas o simplemente para disfrutar en cualquier momento del día. Cada paquete incluye 24 unidades, asegurando que siempre tengas un dulce para satisfacer tus antojos.</p>
+            <button class="add-to-cart">Añadir al carrito 🛒</button>
+        </div>
+    </div>
+
+    <table class="details-table">
+        <tr>
+            <th>Sabores Variados</th>
+            <td>Una mezcla irresistible de sabores que sorprenden</td>
+        </tr>
+        <tr>
+            <th>Contenido</th>
+            <td>Paquete de 24 gomitas</td>
+        </tr>
+        <tr>
+            <th>Textura suave</th>
+            <td>Gomitas que se derriten en la boca</td>
+        </tr>
+        <tr>
+            <th>Ideal para Compartir</th>
+            <td>Perfectas para fiestas y reuniones</td>
+        </tr>
+        <tr>
+            <th>Diversión Asegurada</th>
+            <td>Un dulce que alegra a toda la familia</td>
+        </tr>
+    </table>
+
+    <div class="related-products">
+    <h3>Productos Relacionados</h3>
+<div class="product-card">
+    <img src="images/Productos/Gaseosa manzana 2.5L.jpg" alt="Gaseosas">
+    <h4>Gaseosa Postobon Manzana 2.5L X 8 Und</h4>
+    <p>$36.650</p>
+    <a href="cocacola.html">
+        <button>Añadir al carrito 🛒</button>
+    </a>
+</div>
+
+<div class="product-card">
+    <img src="images/Productos/Gaseosa cocacola 2.5L.jpg" alt="Tomato">
+    <h4>Gaseosa Coca Cola 2.5L X 8 Und</h4>
+    <p>$60.000</p>
+    <a href="cocacola.html">
+        <button>Añadir al carrito 🛒</button>
+    </a>
+</div>
+
+ <div class="product-card">
+    <img src="images/Productos/Arroz Diana Premium.png" alt="Granos">
+    <h4>Arroz Diana Premium X 25 Lib</h4>
+    <p>$70.500</p>
+    <a href="arroz_diana.html">
+        <button>Añadir al carrito 🛒</button>
+    </a>
+</div>
+
+<div class="product-card">
+    <img src="images/Productos/Arroz Roa.png" alt="Granos">
+    <h4>Arroz Roa Fortiplus X 25 Lib</h4>
+    <p>$51.500</p>
+    <a href="arroz_roa.html">
+        <button>Añadir al carrito 🛒</button>
+    </a>
+</div>
+
+
+    <div class="review-section">
+        <h3>Escribe tu opinión</h3>
+        <form class="review-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea rows="4" placeholder="Mensaje" required></textarea>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5" title="5 stars">★</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4" title="4 stars">★</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3" title="3 stars">★</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2" title="2 stars">★</label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1" title="1 star">★</label>
+            </div>
+            <button type="submit">Enviar Opinión</button>
+       
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Fondo blanco */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .shop-detail-container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            color: #333;
+        }
+        .product-header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .product-image img {
+            width: 350px;
+            height: 350px;
+            border-radius: 20px; /* Borde redondeado en la imagen */
+            object-fit: cover;
+        }
+        .product-info {
+            margin-left: 30px;
+            max-width: 600px;
+        }
+        .product-info h2 {
+            font-size: 28px;
+            color: #333;
+        }
+        .product-info p {
+            color: #666;
+            margin-top: 5px;
+        }
+        .price {
+            font-size: 28px;
+            color: #4CAF50;
+            margin: 15px 0;
+        }
+        .rating {
+            display: flex;
+            justify-content: center;
+            flex-direction: row-reverse;
+            margin-bottom: 2px;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            font-size: 55px;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .rating label:hover,
+        .rating label:hover ~ label,
+        .rating input:checked ~ label {
+            color: #9548c2; /* Color morado para estrellas seleccionadas */
+        }
+        .add-to-cart {
+            background-color: #9548c2; /* Botón morado */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .details-table {
+            margin-top: 20px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .details-table th, .details-table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        .related-products {
+            margin-top: 40px;
+        }
+        .related-products h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .product-card {
+            display: inline-block;
+            width: 180px;
+            margin-right: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product-card h4 {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product-card p {
+            color: #4CAF50;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .product-card button {
+            background-color: #9548c2; /* Botón morado */
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .review-section {
+            margin-top: 40px;
+        }
+        .review-section h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .review-form input, .review-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .review-form button {
+            background-color: #9548c2; /* Botón morado */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+
